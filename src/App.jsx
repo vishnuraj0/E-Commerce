@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom"
-import Card from "./Components/Card"
 import NavbarComp from "./Components/Navbar"
+import LoginFrom from "./Components/auth/Login"
 
 function App() {
   
@@ -9,7 +9,7 @@ function App() {
     <>
     <NavbarComp/>
     <Routes>
-      <Route path="/" element={<Card />} />
+      <Route path="/" element={<LoginFrom />} />
     </Routes>
     </>
   )
